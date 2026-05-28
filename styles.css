@@ -56,23 +56,32 @@ model-viewer {
 
 .HotspotAnnotation{
 .HotspotAnnotation {
-  display: none; 
-  position: absolute; 
-  background: white; 
-  border-radius: 8px; 
-  padding: 12px; 
-  min-width: 200px; 
-  max-width: 280px; 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3); 
-  transform: translate3d(-50%, -120%, 0); 
-  color: black; 
-  font-size: 14px; 
-  z-index: 1; 
-  pointer-events: auto; 
+  display: none; [cite: 4]
+  position: absolute; [cite: 4]
+  background: white; [cite: 4]
+  border-radius: 8px; [cite: 4]
+  padding: 12px; [cite: 4]
+  min-width: 200px; [cite: 4]
+  max-width: 280px; [cite: 4]
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); [cite: 4]
+  transform: translate3d(-50%, -120%, 0); [cite: 4]
+  color: black; [cite: 5]
+  font-size: 14px; [cite: 5]
+  z-index: 1; [cite: 5]
+  pointer-events: auto; [cite: 5]
 }
 
 .Hotspot.active .HotspotAnnotation {
   display: block; [cite: 5]
+}
+
+.Hotspot {
+  width: 24px; [cite: 5]
+  height: 24px; [cite: 5]
+  border-radius: 50%; [cite: 5, 6]
+  border: 3px solid white; [cite: 6]
+  background: #4285f4; [cite: 6]
+  cursor: pointer; [cite: 6]
 }
 
 .Hotspot {
