@@ -55,21 +55,7 @@ model-viewer {
 }
 
 .HotspotAnnotation{
-  .HotspotAnnotation {
-  display: none; 
-  position: absolute; 
-  background: white; 
-  border-radius: 8px; 
-  padding: 12px; 
-  min-width: 200px; 
-  max-width: 280px; 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3); 
-  transform: translate3d(-50%, -120%, 0); 
-  color: black; 
-  font-size: 14px; 
-  z-index: 1; 
-  pointer-events: auto; 
-}
+  .HotspotAnnotation {   display: none;   position: absolute;   background: white;   border-radius: 8px;   padding: 12px;   min-width: 200px;   max-width: 280px;   box-shadow: 0 4px 12px rgba(0,0,0,0.3);   transform: translate3d(-50%, -120%, 0);   color: black;   font-size: 14px;   z-index: 1;   pointer-events: auto; }  .Hotspot.active .HotspotAnnotation {   display: block; }  .Hotspot {   width: 24px;   height: 24px;   border-radius: 50%;   border: 3px solid white;   background: #4285f4;   cursor: pointer; } 
 
 
 .Hotspot:not([data-visible]) > * {
